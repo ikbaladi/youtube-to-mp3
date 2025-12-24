@@ -17,7 +17,7 @@
 
         <!-- Main Form -->
         <div class="glass-effect rounded-2xl shadow-2xl p-8 mb-6">
-            <div class="flex gap-3 mb-3">
+            <div class="flex flex-col sm:flex-row gap-3 mb-3">
                 <div class="flex-1 relative">
                     <input 
                         type="text" 
@@ -36,7 +36,7 @@
                         </svg>
                     </button>
                 </div>
-                <button id="checkBtn" class="px-8 py-4 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all">
+                <button id="checkBtn"  class="w-full sm:w-auto px-8 py-4 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all">
                     <span id="checkBtnText">Cek Video</span>
                     <span id="checkBtnLoader" class="hidden">
                         <svg class="animate-spin h-5 w-5 inline" fill="none" viewBox="0 0 24 24">
@@ -134,4 +134,5 @@
 
     <script src="/static/js/app.js"></script>
 </body>
+
 </html>
